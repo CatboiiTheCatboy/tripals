@@ -1,0 +1,50 @@
+		@font-face {
+			font-family: mainFont;
+			src: url(res/BRIANNETOD.TTF);
+		}
+		body{
+			font-size: larger;
+			color: #000000;
+			background: white;
+			font-family: "mainFont";
+		}
+		#bar {
+			display: flex;
+			color: white;
+			align-items: center;
+			background-image: linear-gradient(to right, #019bdd, #77caee);
+			overflow: hidden;
+			justify-content: space-between;
+		}
+		#links {
+			margin-left: 15px;
+			text-decoration: none;
+		}
+		#main {
+			/*display: inline-block;*/
+			margin-left: 15px;
+			justify-content: right;
+		}
+
+		iframe {
+			border: none;
+			margin-right: 50px; 
+			margin-left: 50px; 
+		}
+	
+		.labels{
+			color: Yellow;
+			margin: 10px
+		}
+		
+		form{
+			color: Yellow
+		}
+
+		h1{
+			padding: 10px;
+		}
+
+		nav{
+			font-family: "mario64";
+		}

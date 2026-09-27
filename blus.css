@@ -1,0 +1,49 @@
+		@font-face {
+			font-family: EM;
+			src: url(res/earthsmightiest.ttf);
+		}
+		body{
+			font-size: larger;
+			color: #019bdd;
+			background: white;
+			font-family: "EM";
+		}
+		#bar {
+			display: flex;
+			color: white;
+			align-items: center;
+			background-image: linear-gradient(to right, #019bdd, #77caee);
+			overflow: hidden;
+			justify-content: space-between;
+		}
+		#links {
+			margin-left: 15px;
+			text-decoration: none;
+		}
+		#main {
+			display: flex;
+			justify-content: center;
+		}
+
+		iframe {
+			border: none;
+			margin-right: 50px; 
+			margin-left: 50px; 
+		}
+	
+		.labels{
+			color: Yellow;
+			margin: 10px
+		}
+		
+		form{
+			color: Yellow
+		}
+
+		h1{
+			padding: 10px;
+		}
+
+		nav{
+			font-family: "mario64";
+		}

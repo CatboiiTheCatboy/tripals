@@ -3,18 +3,10 @@
 			src: unset;
 		}
 		body{
-			font-size: larger;
+			font-size: medium;
 			color: #000000;
 			background: white;
 			font-family: "mainFont";
-		}
-		#bar {
-			display: flex;
-			color: white;
-			align-items: center;
-			background-image: linear-gradient(to right, #019bdd, #77caee);
-			overflow: hidden;
-			justify-content: space-between;
 		}
 		#links {
 			margin-left: 15px;
@@ -23,13 +15,32 @@
 		#main {
 			/*display: inline-block;*/
 			margin-left: 15px;
+			margin-right: 15px;
 			justify-content: right;
+			background-image: url(res/chess.png);
+			background-size: 100%;
+		}
+		#text {
+			/*display: inline-block;*/
+			margin-left: 15px;
+			margin-right: 15px;
+			justify-content: right;
+		}
+		#navigator {
+			display: flex;
+			color: white;
+			align-items: center;
+			background-image: linear-gradient(to right, #ffffff, #bfbfbf);
+			overflow: hidden;
+			justify-content: space-between;
+			margin-top: 10;
+			margin-bottom: 10;
 		}
 
 		iframe {
 			border: none;
-			margin-right: 50px; 
-			margin-left: 50px; 
+			/* margin-right: 50px;  */
+			/* margin-left: 50px;  */
 		}
 	
 		.labels{
@@ -43,8 +54,4 @@
 
 		h1{
 			padding: 10px;
-		}
-
-		nav{
-			font-family: "mario64";
 		}

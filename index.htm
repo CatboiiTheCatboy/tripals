@@ -4,32 +4,38 @@
     <link rel = "stylesheet" href = "strawlike.css">
 </head>
 <body>
-	<div id = "navigator"></div>
-
-	<script>
-    fetch('nav.html')
-        .then(response => response.text())
-        .then(data => {document.getElementById('navigator').innerHTML = data;});
-    </script>
+	<div id = "navigatorFrame">
+        <iframe width="100%" height="100" src="navigator.htm" title="Navigate"></iframe>
+    </div>
 
     <div id = "main">
-        <img src="res/logo.png">
-        <div>
-            <h2>Who?</h2>
-                A group of three pals!
+        <div id = "text">
+            <div>
+                <h1>Welcome to...</h1>
+                <img src="res/logo.png">
+            </div>
             <br>
-            <h2>What??</h2>
-                Occasionally create arts!<br>
-                Also planning to release some games here.
-            <br>
-            <h2>Whuh???</h2>
-                Ya heard me!
-            <br>
-            <!--<a href="shop1.htm">Shop Now</a>-->
-        </div>
-        <img src="res/pals.png">
-        <div>
-            More stuff comin' soon!
+            <div>
+                <h2>Who?</h2>
+                    <div style="background-color: #808080;">
+                        A group of three pals!
+                    </div>
+                <h2>What??</h2>
+                    <div style="background-color: #808080;">
+                        Occasionally create arts!<br>
+                        Also planning to release some games here.
+                    </div>
+                <h2>Whuh???</h2>
+                    <div style="background-color: #808080;">
+                        Ya heard me!
+                    </div>
+                <br><br>
+                <!--<a href="shop1.htm">Shop Now</a>-->
+            </div>
+            <img src="res/pals.png">
+            <div style="background-color: #808080;">
+                More stuff comin' soon!
+            </div>
         </div>
     </div>
 </body>
